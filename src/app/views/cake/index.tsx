@@ -14,7 +14,7 @@ const CakeView: FC = () => {
   const [openModal, setOpenModal] = useState<boolean>(false);
   const { audioContext } = useAudioContext();
 
-  const birthdayFrase = "Happy Birthday! Blow up the candle and make a wish!";
+  const birthdayFrase = "Happy Birthday! Make a wish and blow up the candle!";
 
   useEffect(() => {
     const timer = setTimeout(() => {
