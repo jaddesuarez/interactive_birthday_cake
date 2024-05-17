@@ -33,15 +33,16 @@ There is no need to create a .env file for this project.
 
 The project structure is as follows:
 
+```bash
 project-root/
 │
 ├── public/
 │
 ├── src/
 │ ├── app/
-│ │ ├── cake/  
+│ │ ├── cake/
 │ │ │ └── page.tsx
-│ │ ├── components/  
+│ │ ├── components/
 │ │ │ ├── BirthdayMessageModal/
 │ │ │ │ └── BirthdayMessageModal.tsx
 │ │ │ ├── Meteors/
@@ -72,6 +73,7 @@ project-root/
 ├── tailwind.config.ts
 ├── tsconfig.json
 └── yarn.lock
+```
 
 ## Dependencies
 
